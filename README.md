@@ -1,8 +1,8 @@
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-## Command for Creating app
-npm create vite@latest
+## Command for Creating app.
+npm create vite@latest.
 vyantra -> Name of project
 select react framework
 select javascript
