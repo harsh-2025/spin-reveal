@@ -1,6 +1,29 @@
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Command for Creating app
+npm create vite@latest
+vyantra -> Name of project
+select react framework
+select javascript
+cd vyantra
+npm i
+npm run dev (for start the project)
+
+In app.tsx have imported SlotMachine component
+In SlotMachine component have 
+Turbo state mode which does the spin in half time of normal
+Golden color border will glow when user win.
+Spin button for starting the game.
+The game reset whenever user win or lose.
+
+
+Have used 3 emojis for the spin and reveal game
+
+
+
+
+
 
 Currently, two official plugins are available:
 
