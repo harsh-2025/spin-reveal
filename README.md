@@ -1,24 +1,53 @@
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-## Command for Creating app.
-npm create vite@latest.
-vyantra -> Name of project
-select react framework
-select javascript
+# 🎰 Slot Machine Game - Vyantra
+
+This is a simple **Spin & Reveal** game built using **React** and **Vite**. It simulates a 3-reel slot machine with an engaging UI and interactive animations.
+
+## 🚀 Setup Instructions
+
+```bash
+# Create the app using Vite
+npm create vite@latest
+
+# Name the project as 'vyantra'
+# Choose 'React' and 'JavaScript' options when prompted
+
 cd vyantra
-npm i
-npm run dev (for start the project)
 
-In app.tsx have imported SlotMachine component
-In SlotMachine component have 
-Turbo state mode which does the spin in half time of normal
-Golden color border will glow when user win.
-Spin button for starting the game.
-The game reset whenever user win or lose.
+# Install dependencies
+npm install
 
+# Start the development server
+npm run dev
+```
 
-Have used 3 emojis for the spin and reveal game
+## 🧩 Features
+
+- 🎯 **Turbo Mode**: Speeds up the spin animation to half the normal duration.
+- ✨ **Golden Glow on Win**: When the user wins, the slot box borders glow golden.
+- 🌀 **Spin Button**: Triggers the spinning action of all 3 reels.
+- 🔁 **Automatic Reset**: The game resets automatically after a win or loss.
+- 🎉 **Emojis Used**: Uses three different emojis for fun and visual appeal.
+
+## 🧱 Components
+
+- `App.tsx`: Main entry point that renders the `SlotMachine` component.
+- `SlotMachine.jsx`: Core game logic and UI, including:
+  - State management for spins and win conditions
+  - Turbo spin feature
+  - Randomized emoji generation
+  - Win/loss detection and visual feedback
+
+## 📸 Preview
+
+```text
+[ 🍒 ] [ 🍋 ] [ 🍊 ]
+      [ SPIN ]
+```
+
+Enjoy the thrill of spinning! 🍀
 
 
 
