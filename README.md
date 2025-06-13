@@ -9,7 +9,8 @@ This is a simple **Spin & Reveal** game built using **React** and **Vite**. It s
 
 ```bash
 # Create the app using Vite
-npm create vite@latest
+mkdir vyantra
+git clone https://github.com/harsh-2025/spin-reveal
 
 # Name the project as 'vyantra'
 # Choose 'React' and 'JavaScript' options when prompted
